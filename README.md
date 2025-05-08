@@ -36,7 +36,7 @@ MetaEye runs **entirely in the browser** — no server or backend required.
 
 ## 🚀 How to Use
 
-1. Open the HTML file in your browser *(or deploy to GitHub Pages / a static web host)*.
+1. Open the HTML file in your browser or https://splo1t.github.io/meta-eye/
 2. Drag and drop an image into the drop area or use the file selector.
 3. The extracted metadata will be displayed in a formatted section.
 4. If no metadata is found, a friendly message will appear.
