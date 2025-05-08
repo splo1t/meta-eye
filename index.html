@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>MetaEye – Metadata Extractor</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MetaEye - Metadata Extractor</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>🕵️ MetaEye</h1>
-  <p>Drag & drop an image below to see its hidden metadata.</p>
-  <div id="drop-zone">Drop your image here</div>
-  <pre id="output"></pre>
+  <div class="container">
+    <h1>🕵️‍♂️ MetaEye</h1>
+    <p>Upload or drag & drop an image file to extract hidden metadata (EXIF, GPS, etc.)</p>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+    <div id="dropZone" class="drop-zone">
+      <p>📂 Drag and drop image here</p>
+      <p>or</p>
+      <input type="file" id="fileInput" accept="image/*" />
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="https://cdn.rawgit.com/exif-js/exif-js/master/exif.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
